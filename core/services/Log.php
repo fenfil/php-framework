@@ -1,19 +1,8 @@
 <?php
-/**
- * Created by Artem Manchenkov
- * artyom@manchenkoff.me
- * manchenkoff.me © 2018
- */
 
-namespace core\services;
+namespace Core\Services;
 
-/**
- * Класс для ведения лог-журнала
- *
- * @package core\services
- */
-class Log
-{
+class Log {
     // TODO: описать методы логирования
     public function __construct(array $config) {}
 

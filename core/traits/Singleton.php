@@ -1,33 +1,15 @@
 <?php
-/**
- * Created by Artem Manchenkov
- * artyom@manchenkoff.me
- * manchenkoff.me © 2018
- */
 
-namespace core\traits;
+namespace Core\Traits;
 
-/**
- * Singleton для повторного использования в других компонентах
- *
- * @package core\traits
- */
-trait Singleton
-{
+trait Singleton {
 
     private static $_instance;
 
-    private function __construct()
-    {
-        // proxy block
+    private function __construct() {
     }
 
-    /**
-     * Возвращает всегда активный объект класса
-     * @return static
-     */
-    public static function getInstance()
-    {
+    public static function getInstance() {
         if (!isset(self::$_instance)) {
             self::$_instance = new self();
         }
@@ -35,14 +17,10 @@ trait Singleton
         return self::$_instance;
     }
 
-    private function __clone()
-    {
-        // proxy block
+    private function __clone() {
     }
 
-    private function __wakeup()
-    {
-        // proxy block
+    private function __wakeup() {
     }
 
 }

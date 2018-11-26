@@ -1,13 +1,8 @@
 <?php
-/**
- * Created by Artem Manchenkov
- * artyom@manchenkoff.me
- * manchenkoff.me © 2018
- */
 
-namespace app\controllers;
+namespace App\Controllers;
 
-use core\base\Controller;
+use Core\Base\Controller;
 
 class HomeController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Base;
+namespace core\base;
 
 use Twig_Environment;
 

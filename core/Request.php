@@ -1,8 +1,8 @@
 <?php
 
-namespace Core;
+namespace core;
 
-use Core\Base\BaseObject;
+use core\base\BaseObject;
 
 class Request extends BaseObject {
     private $_redirectedFrom;

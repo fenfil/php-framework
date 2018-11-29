@@ -1,8 +1,8 @@
 <?php
 
-namespace Core;
+namespace core;
 
-use Core\Base\BaseObject;
+use core\base\BaseObject;
 
 class Router extends BaseObject {
     public $route = [];

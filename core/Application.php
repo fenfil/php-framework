@@ -2,9 +2,11 @@
 
 namespace Core;
 
-use Core\Base\Controller;
-use Core\Base\View;
-use Core\Traits\Singleton;
+use core\base\Controller;
+use core\base\View;
+use core\traits\Singleton;
+use core\Router;
+use core\Request;
 use Twig_Environment;
 use Twig_Loader_Filesystem;
 

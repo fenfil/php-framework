@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Base;
+namespace core\base;
 
 abstract class BaseObject {
     public function __get($name) {

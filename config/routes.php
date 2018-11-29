@@ -1,6 +1,6 @@
 <?php
 
-use App\Controllers\HomeController;
+use app\controllers\HomeController;
 
 return [
     'routes' => [

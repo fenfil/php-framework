@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Base;
+namespace core\base;
 
-use Core\Request;
+use core\request;
 
 abstract class Controller extends BaseObject {
     public $name;

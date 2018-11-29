@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Services;
+namespace core\services;
 
 class Convert
 {

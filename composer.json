@@ -1,0 +1,25 @@
+{
+  "name": "fenfil/php-framework",
+  "description": "MVC app",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladimir Zaykovskiy",
+      "email": "vladimir.zaykovskiy@ya.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/",
+      "core\\": "core/"
+    }
+  },
+  "require": {
+    "twig/twig": "^2.0",
+    "doctrine/dbal": "^2.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  }
+}
